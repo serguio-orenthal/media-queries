@@ -12,6 +12,31 @@ body{
 ul{
     list-style: none;
 }
+.header-img{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    /*align-items: center;*/
+}
+
+#main{
+    display:flex;
+    /*flex-direction: row;*/
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+.sub-section{
+    display: flex;
+    /*flex-direction: row;*/
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+}
 
 @media screen and (min-width: 35rem) {
 
