@@ -1,49 +1,106 @@
+
 body{
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
-.nav-links{
-    display: flex;
-    margin-left: 70%;
-    justify-content: space-evenly;
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+nav{
+    display: flex
+    justify-content: center;
 }
 
 ul{
-    list-style: none;
-}
-.header-img{
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    /*align-items: center;*/
+    /*list-style: none;*/
+    border: 2px solid gray;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*margin-right: 8px;*/
+    /*margin-left: 8px;*/
 }
 
-#main{
-    display:flex;
-    /*flex-direction: row;*/
-    flex-wrap: wrap;
-    border: 2px solid black;
-}
-.sub-section{
+li{
     display: flex;
-    /*flex-direction: row;*/
-    flex-wrap: wrap;
-    border: 2px solid black;
-}
-section{
-    display: flex;
-    flex-direction: column;
+    background-color: lightgray;
+    border: 2px solid gray;
     justify-content: center;
-    border: 2px solid black;
-}
-
-@media screen and (min-width: 35rem) {
-
-    body{
-        display: flex;
-        flex-direction: column;
-    }
+    margin: 2px 0 2px 0;
+    box-sizing: border-box;
 
 
 }
+
+.alert-info{
+    border: 2px solid gray;
+    background-color: lightgray;
+    flex-wrap: wrap;
+    align-self: center;
+    padding: 10px 110px;
+}
+
+img{
+    width: 339px;
+    height: 224px;
+}
+
+
+/*@media screen and (min-width: 567px) {*/
+
+/*body{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+
+/*!*.alert-info{*!*/
+/*!*    *!*/
+/*!*}*!*/
+
+/*.nav-links{*/
+/*    display: flex;*/
+/*    margin-left: 70%;*/
+/*    justify-content: space-evenly;*/
+/*}*/
+
+/*ul{*/
+/*    list-style: none;*/
+/*}*/
+/*.header-img{*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    margin: auto;*/
+/*    !*align-items: center;*!*/
+/*}*/
+
+/*#main {*/
+/*    display:flex;*/
+/*    !*flex-direction: column;*!*/
+/*    !*flex-wrap: wrap;*!*/
+/*    border: 2px solid black;*/
+/*    flex-basis: 75%;*/
+/*}*/
+
+/*.sub-section{*/
+/*    display: flex;*/
+/*    !*flex-direction: column;*!*/
+/*    !*flex-wrap: wrap;*!*/
+/*    border: 2px solid black;*/
+/*    flex-basis: 25%;*/
+/*    !*align-self: flex-start;*!*/
+
+/*}*/
+
+/*section{*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    !*justify-content: center;*!*/
+/*    border: 2px solid black;*/
+/*}*/
+
+/*}*/
